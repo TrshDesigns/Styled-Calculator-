@@ -1,0 +1,150 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+}
+#calculator {
+  width: 420px;
+  height: 680px;
+  margin: auto auto ;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(45, 5, 32, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1586455122341-927f2dec0691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
+}
+#history-value{
+  margin-right:10px;
+  color:rgba(255, 255, 255, 0.648)
+}
+#result {
+  height: 120px;
+}
+#history {
+  margin:5px 10px 15px 10px;
+  transition:all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: 15px;
+  border-radius: 50px;
+  height: 40px;
+  background: linear-gradient(145deg, #f0f0f00e, #cacaca49);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+#history:hover {
+	font-size: 17px;
+	transition:all ease-in-out 0.3s;
+}
+#output-value{
+  color:rgba(255, 255, 255, 0.845);
+  text-rendering: optimizeLegibility;
+  margin:20px;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 0px 20px ;
+  font-size: 30px;
+  background: linear-gradient(145deg, #e9e1e178, #00000027);
+  box-shadow: 20px 20px 60px #bebebe31, -20px -20px 60px #ffffff4d;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius:10px;
+}
+#keyboard {
+  height: 400px;
+}
+.operator,
+.number,
+.empty {
+  width: 72px;
+  height: 72px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+button {
+  background: rgba(255, 255, 255, 0.150);
+  box-shadow: 0 2px 2px 0 rgba(61, 61, 61, 0.471);
+  box-shadow: inset 0 2px 2px 0px rgba(255, 255, 255, 0.374);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.350);
+}
+.empty {
+  background:none;
+  box-shadow: none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter: none;
+}
+.empty:hover{
+  background:none;
+}
+.number,
+.operator {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+.operator:focus,
+.number:focus,
+.empty:focus {
+  outline: 0;
+}
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2ab4d;
+  color:white
+}
+button:nth-child(4):hover {
+  background-color: #20b2abf8;
+}
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #ffd500a7;
+  color:white
+}
+button:nth-child(8):hover {
+  background-color: #ffd500ca;
+}
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #f080807c;
+  color:white;
+}
+button:nth-child(12):hover {
+  background-color: #f08080c6;
+}
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7d92e074;
+  color:white;
+}
+button:nth-child(16):hover {
+  background-color: #7d92e0e0;
+}
+button:nth-child(20) {
+  font-size: 20px;
+  background-color: #8e5eba8f;
+  color:white;
+}
+button:nth-child(20):hover {
+  background-color: #8d5ebad7;
+}
