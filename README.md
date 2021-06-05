@@ -14,4 +14,3 @@
 - Javascript [Logic/Working of calculator]
 
 
- <img src="/calc.png">
