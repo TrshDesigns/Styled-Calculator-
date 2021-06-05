@@ -8,7 +8,12 @@
 		<title>Calculator</title>
 	</head>
 	<body>
-			<div id="calculator">
+		 <script>
+               if ('serviceWorker' in navigator) {
+               navigator.serviceWorker.register('service-worker.js');
+                }
+                 </script>
+		<div id="calculator">
 				<div id="result">
 					<div id="history">
 						<p id="history-value"></p>
