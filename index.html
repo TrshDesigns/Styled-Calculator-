@@ -1,10 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" type="image/png" href="msteams/msteams-silhouette-32-32.png" />
+	<link rel=preconnect href="https://storage.googleapis.com/workbox-cdn/releases/6.1.1/workbox-sw.js">
+	<link rel=preconnect href="https://images.unsplash.com">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+	<script src="/js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="msteams/msteams-silhouette-32-32.png" />
+	<meta name="theme-color" content="#20b2abf8">
+	<meta name="description" content="A simple styled calculator">
 	<link rel="manifest" href="manifest.json">
 	<title>Calculator</title>
 </head>
@@ -41,13 +47,12 @@
 			<button class="number" id="2">2</button>
 			<button class="number" id="3">3</button>
 			<button class="operator" id="+">+</button>
-			<button class="empty" id="empty"></button>
+			<button class="empty" id="empty">empty</button>
 			<button class="number" id="0">0</button>
-			<button class="empty" id="empty"></button>
+			<button class="empty" id="empty">empty</button>
 			<button class="operator" id="=">=</butto>
 		</div>
 	</div>
-	<script src="/js/script.js"></script>
 </body>
 
 </html>
