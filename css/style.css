@@ -94,7 +94,7 @@ button:hover {
   box-shadow: none;
   backdrop-filter:none;
   -webkit-backdrop-filter: none;
-  color:none;
+  color:transparent;
 }
 .empty:hover{
   background:none;
